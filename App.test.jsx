@@ -5,5 +5,5 @@ import App from "./src/App";
 
 test("renders Hello, Azure", () => {
   render(<App />);
-  expect(screen.getByText(/Hello, Azure/i)).toBeInTheDocument();
+  expect(screen.getByText(/Hello, LNU/i)).toBeInTheDocument();
 });
